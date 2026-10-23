@@ -1,0 +1,12 @@
+# Credentials and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Local browser and session material
+.cookies
+*.har
+*.trace.zip
+
+.DS_Store
