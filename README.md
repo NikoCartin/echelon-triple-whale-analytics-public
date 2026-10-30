@@ -19,12 +19,17 @@ A physical iPhone check also confirmed that cart quantity changed correctly and 
 - QA-only JavaScript guards with a clear no-production boundary.
 - Sanitized technical documentation suitable for a public engineering portfolio.
 
+## Follow-up: mobile checkout CRO remediation
+
+The investigation led to a set of live theme fixes for mobile and in-app browser friction between the product page and payment: chat launcher placement, membership option order, popup suppression during checkout intent, a restored price and financing area, and site-scan clean-up. Landing-page findings were handed to the team that owns them. Measurement is in progress, and no uplift is claimed yet. [Read the CRO case study](docs/05-mobile-cro-remediation.md).
+
 ## Contents
 
 - [Case overview](docs/01-case-overview.md)
 - [Methodology](docs/02-methodology.md)
 - [Findings and release safety](docs/03-findings-and-release-safety.md)
 - [Reusable validation checklist](docs/04-validation-checklist.md)
+- [Mobile checkout CRO remediation](docs/05-mobile-cro-remediation.md)
 - [Changelog](CHANGELOG.md)
 
 ## Data handling
